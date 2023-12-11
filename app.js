@@ -59,7 +59,7 @@ const resetGame = () => {
 }
 
 const showWinner = (winner) => {
-    msg.innerText = `Hurray!!!, Winner is ${winner}`;
+    msg.innerText = `Hurray!!!🎉, Winner is ${winner}. scroll down to view the results`;
     msgContainer.classList.remove("hidden");
     disableBoxes();  //this disables all the boxes after winner is declared
 }
